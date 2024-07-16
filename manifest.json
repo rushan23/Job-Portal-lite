@@ -1,0 +1,39 @@
+{
+
+"name": "Job Portal",
+"short_name": "Job Portal",
+"start_url": "/?Home=true",
+"description":"A freelancing website lets you post and apply for jobs annihilating unemployement",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#076ae1",
+"orientation": "portrait-primary",
+"icons":[
+    {
+        "src": "/icons/JobPortal_144.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "/icons/JobPortal_198.png",
+        "type": "image/png",
+        "sizes": "198x198",
+        "purpose": "any maskable"        
+    },
+    {
+        "src": "/icons/JobPortal_384.png",
+        "type": "image/png",
+        "sizes": "384x384",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "/icons/JobPortal_512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+    }
+]
+
+
+}

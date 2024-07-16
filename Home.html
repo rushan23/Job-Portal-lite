@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Home Job Portal</title>
+        <link rel="application/json" href="/manifest.json">
+        <link rel="stylesheets" href="css/mystyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="/icons/JobPortal_198.png">
+        <meta name="theme-color" content="#076ae1"/>
+        <link rel="icon" type="image/x-icon" href="icons/favicon.png">
+        
+        <style>
+
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid rgb(7, 7, 7);
+	outline:none;
+	background: transparent;
+}
+
+#bgimg
+{
+    width: 72px;
+    height: 72px;
+
+}
+
+.logo
+{
+    font-family: 'Verdana';
+    font-size: 24px;
+    color: black;
+
+}
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("css/images/books_1.jpg") ;
+    background-size: cover;
+    position: relative;
+    background-image: url("homeimage.jpg");
+    
+}
+
+nav
+{
+    background:none;
+    height: 80px;
+    width:100%;
+
+}
+label.logo
+{
+    color:black;
+    font-size:35px;
+    line-height:80px;
+    padding:0 100px;
+    font-weight: bold;
+}
+nav ul 
+{
+    font-family: sans-serif;
+    list-style-type: none;
+    float: right;
+    margin: 20px;
+}
+nav ul li
+{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 80px;
+    margin: 0 20px;
+}
+nav ul li a{
+    color:black ;
+    text-decoration: none;
+
+
+}
+nav ul li  :hover{
+    background-color: grey;
+    color: black;
+}
+</style>
+    </head>
+
+    <body>
+
+        
+        <nav>
+            <label class="logo">Job Portal</label>
+                    
+              <ul>
+            <li>
+                <form mehthod="POST">
+                    <input class="input-field" type="text" placeholder ="Search For Jobs" name="searchbar">
+                </form>
+            </li>
+            <li> <button class="button">Search</button> </li>
+            <li> <a href="Home.html">HOME</a></li>
+            <LI> <a href="Post A Job.php">POST A JOB</a> </LI>
+            <li> <a href="Contact Us.html">CONTACT</a></li>  
+            <li><a href="Login.php">LOGIN</a></li>
+            </ul>
+            <h1 class="logo">Welcome to Home Page!</h1>
+        
+            <script src="js/app.js"></script>
+        
+    </body>
+</html>
